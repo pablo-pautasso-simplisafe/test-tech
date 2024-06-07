@@ -1,0 +1,656 @@
+{
+    "id": "6f6b829f-b69f-d291-7799-b77d1168ed88",
+    "locationId": "13534399",
+    "createdTimestamp": "2024-05-23T22:32:09.360Z",
+    "category": "Burglary",
+    "triggeringSignal": {
+        "id": "021b447f",
+        "signalCode": {
+            "eventContactId": "1134",
+            "zoneId": "0"
+        }
+    },
+    "governingAlarmSignalEventId": "6ef1c86b-3172-1415-3763-11ef426a40fd",
+    "governingSignal": {
+        "id": "021b447f",
+        "signalCode": {
+            "eventContactId": "1134",
+            "zoneId": "0"
+        }
+    },
+    "monitoring": {
+        "state": "Complete",
+        "monitoringServiceProviderId": "rrms-internal",
+        "monitoringSpecialist": {
+            "id": "5004941",
+            "name": "Luke"
+        },
+        "disposition": "Cancelled",
+        "completedTimestamp": "2024-05-23T22:33:47.680Z",
+        "dispositionReason": "ElectronicCancellation"
+    },
+    "customer": {
+        "state": "NotContacted",
+        "customerContacts": [],
+        "verificationState": "NotVerified"
+    },
+    "dispatch": {
+        "state": "NotRequested"
+    },
+    "disposition": "FalseAlarm",
+    "timeline": [
+        {
+            "type": "MonitoringServiceProviderAlarmSignalEvent",
+            "id": "6ef1c86b-3172-1415-3763-11ef426a40fd",
+            "timestamp": "2024-05-23T22:32:09.360Z",
+            "receivedTimestamp": "2024-05-23T22:32:11.959Z",
+            "monitoringServiceProviderId": "rrms-internal",
+            "monitoringServiceProviderEventId": "8274393",
+            "monitoringServiceProviderAlarmId": "61662540",
+            "monitoringServiceProviderEvent": {
+                "AlarmFlag": true,
+                "AlarmNumOrTest": "16625",
+                "AreaDescription": null,
+                "AreaNum": null,
+                "DevNum": 600179937,
+                "EventCode": "BURGCon",
+                "EventOpAct": "BURGCon - Burglary Contact Sensor",
+                "FullClearFlag": false,
+                "HistoryCommentBig": "",
+                "HistoryDate": "2024-05-23T17:32:09.360Z",
+                "HistorySeqNum": "8274393",
+                "Phone": null,
+                "Point": "021b447f",
+                "PointDescription": "Entry Sensor: Front Door",
+                "ScheduledDate": null,
+                "ServiceTypeDescription": "B - Burglary",
+                "ShortName": null,
+                "SigForm": "SS",
+                "SignalCode": "1134000",
+                "SignalCodeDescription": "1134000 - Alarm: Entry Sensor",
+                "SiteNum": 600179924,
+                "ServerNum": 40,
+                "TestAuthorization": null,
+                "TestDetails": null,
+                "TestEffectiveDate": null,
+                "TestExpireDate": null,
+                "TransmitterCode": "SSI0000600179937",
+                "UTCDate": "2024-05-23T22:32:09.360Z",
+                "AlarmDisposition": null,
+                "AutoNotifyOption": null,
+                "AutoNotifyRecipient": null,
+                "Latitude": null,
+                "Longitude": null,
+                "OpAct": null,
+                "AlarmNum": 61662540,
+                "OperatorName": null,
+                "AltDeviceID": "SS-13534399-0",
+                "ContactName": null,
+                "PhoneKeyType": null,
+                "AgencyName": null,
+                "SiteName": "Fogg, Phileas",
+                "AgencyType": null,
+                "AgencyTypeDescription": null,
+                "DisplayDelay": "00:23",
+                "AlarmResolution": null,
+                "AvailableDate": null,
+                "RetrievalDate": null,
+                "ResponseSeconds": null,
+                "AlarmLevel": null,
+                "AlarmLevelDescription": null,
+                "AlarmLevelInfo": null,
+                "SiteGroups": [
+                    {
+                        "SiteGroupNum": 6284,
+                        "SiteGroupType": "Master",
+                        "RuleOrder": 100
+                    },
+                    {
+                        "SiteGroupNum": 6284002,
+                        "SiteGroupType": "Dealers",
+                        "RuleOrder": 50
+                    },
+                    {
+                        "SiteGroupNum": 6284026,
+                        "SiteGroupType": "Eq",
+                        "RuleOrder": 25
+                    }
+                ]
+            },
+            "signalId": "021b447f",
+            "signalCode": {
+                "eventContactId": "1134",
+                "zoneId": "0"
+            },
+            "holdDurationInMilliseconds": 23000
+        },
+        {
+            "type": "MonitoringSpecialistEvent",
+            "id": "b67c37bc-1432-79bb-2e19-ac1350e733d1",
+            "timestamp": "2024-05-23T22:32:12.420Z",
+            "receivedTimestamp": "2024-05-23T22:32:17.170Z",
+            "monitoringServiceProviderId": "rrms-internal",
+            "monitoringServiceProviderEventId": "8274394",
+            "monitoringServiceProviderAlarmId": "61662540",
+            "monitoringServiceProviderEvent": {
+                "AlarmFlag": false,
+                "AlarmNumOrTest": "16625",
+                "AreaDescription": null,
+                "AreaNum": null,
+                "DevNum": 600179937,
+                "EventCode": null,
+                "EventOpAct": "Access on Dispatch Window",
+                "FullClearFlag": false,
+                "HistoryCommentBig": "",
+                "HistoryDate": "2024-05-23T17:32:12.420Z",
+                "HistorySeqNum": "8274394",
+                "Phone": null,
+                "Point": null,
+                "PointDescription": "",
+                "ScheduledDate": null,
+                "ServiceTypeDescription": "",
+                "ShortName": 5004941,
+                "SigForm": null,
+                "SignalCode": null,
+                "SignalCodeDescription": null,
+                "SiteNum": 600179924,
+                "ServerNum": 40,
+                "TestAuthorization": null,
+                "TestDetails": null,
+                "TestEffectiveDate": null,
+                "TestExpireDate": null,
+                "TransmitterCode": "SSI0000600179937",
+                "UTCDate": "2024-05-23T22:32:12.420Z",
+                "AlarmDisposition": null,
+                "AutoNotifyOption": null,
+                "AutoNotifyRecipient": null,
+                "RawMessage": "[SessionNum=4676564]",
+                "Latitude": null,
+                "Longitude": null,
+                "OpAct": "Access",
+                "AlarmNum": 61662540,
+                "OperatorName": "Luke",
+                "AltDeviceID": "SS-13534399-0",
+                "ContactName": null,
+                "PhoneKeyType": null,
+                "AgencyName": null,
+                "SiteName": "Fogg, Phileas",
+                "AgencyType": null,
+                "AgencyTypeDescription": null,
+                "DisplayDelay": null,
+                "AlarmResolution": null,
+                "AvailableDate": "2024-05-23T22:32:32.360Z",
+                "RetrievalDate": null,
+                "ResponseSeconds": null,
+                "AlarmLevel": 1,
+                "AlarmLevelDescription": "1 - Call for Service - no other info",
+                "AlarmLevelInfo": "AVS Alarm Level 1 - no additional information available",
+                "SiteGroups": [
+                    {
+                        "SiteGroupNum": 6284,
+                        "SiteGroupType": "Master",
+                        "RuleOrder": 100
+                    },
+                    {
+                        "SiteGroupNum": 6284002,
+                        "SiteGroupType": "Dealers",
+                        "RuleOrder": 50
+                    },
+                    {
+                        "SiteGroupNum": 6284026,
+                        "SiteGroupType": "Eq",
+                        "RuleOrder": 25
+                    }
+                ]
+            },
+            "monitoringSpecialist": {
+                "id": "5004941",
+                "name": "Luke"
+            },
+            "action": "AccessedAlarm"
+        },
+        {
+            "type": "AlarmSignalEvent",
+            "id": "c4beaf0e-4655-40c8-96ef-6dbd9ca58388",
+            "timestamp": "2024-05-23T22:33:46.034Z",
+            "receivedTimestamp": "2024-05-23T22:33:46.034Z",
+            "signalId": "031eff2c-78a4-49dd-8ab3-0f8e81c2d1d0",
+            "signalCode": {
+                "eventContactId": "1406",
+                "zoneId": "6"
+            }
+        },
+        {
+            "type": "MonitoringServiceProviderAlarmSignalEvent",
+            "id": "390470f8-9f8e-4bac-d7e6-c7e231a8413a",
+            "timestamp": "2024-05-23T22:33:47.680Z",
+            "receivedTimestamp": "2024-05-23T22:33:52.284Z",
+            "monitoringServiceProviderId": "rrms-internal",
+            "monitoringServiceProviderEventId": "8274406",
+            "monitoringServiceProviderAlarmId": "61662540",
+            "monitoringServiceProviderEvent": {
+                "AlarmFlag": false,
+                "AlarmNumOrTest": "16625",
+                "AreaDescription": null,
+                "AreaNum": null,
+                "DevNum": 600179937,
+                "EventCode": "CAN",
+                "EventOpAct": "CAN - CANCEL ABORT/DISARM AFTER ALARM",
+                "FullClearFlag": false,
+                "HistoryCommentBig": "Alarm Aborted LogOnly Cancel Log Only",
+                "HistoryDate": "2024-05-23T17:33:47.680Z",
+                "HistorySeqNum": "8274406",
+                "Phone": null,
+                "Point": null,
+                "PointDescription": "",
+                "ScheduledDate": null,
+                "ServiceTypeDescription": "K - Cancel",
+                "ShortName": null,
+                "SigForm": "SS",
+                "SignalCode": "1406006",
+                "SignalCodeDescription": "1406006 - Cancel: Remote",
+                "SiteNum": 600179924,
+                "ServerNum": 40,
+                "TestAuthorization": null,
+                "TestDetails": null,
+                "TestEffectiveDate": null,
+                "TestExpireDate": null,
+                "TransmitterCode": "SSI0000600179937",
+                "UTCDate": "2024-05-23T22:33:47.680Z",
+                "AlarmDisposition": null,
+                "AutoNotifyOption": null,
+                "AutoNotifyRecipient": null,
+                "RawMessage": "[Account=SS-13534399-0~][SignalFormat=SS~][SignalCode=1406006~][Date=May 23 2024 10:33:46:000PM~][FileName={\"alarmId\":\"031eff2c-78a4-49dd-8ab3-0f8e81c2d1d0\",\"otelCarrier\":{\"traceparent\":\"00-2d06a5886f8390319d3337bf9343ecc3-42752af7f0a8392f-01\"}}~][TestSignalFlag=N~][ServiceUserName=6284WS~][App2AppuserNum=4000026~] EventRules: {GER#30771382 AlarmOption-LogOnly}",
+                "Latitude": null,
+                "Longitude": null,
+                "OpAct": null,
+                "AlarmNum": 61662540,
+                "OperatorName": null,
+                "AltDeviceID": "SS-13534399-0",
+                "ContactName": null,
+                "PhoneKeyType": null,
+                "AgencyName": null,
+                "SiteName": "Fogg, Phileas",
+                "AgencyType": null,
+                "AgencyTypeDescription": null,
+                "DisplayDelay": null,
+                "AlarmResolution": "Aborted",
+                "AvailableDate": "2024-05-23T22:32:32.360Z",
+                "RetrievalDate": null,
+                "ResponseSeconds": null,
+                "AlarmLevel": 1,
+                "AlarmLevelDescription": "1 - Call for Service - no other info",
+                "AlarmLevelInfo": "AVS Alarm Level 1 - no additional information available",
+                "SiteGroups": [
+                    {
+                        "SiteGroupNum": 6284,
+                        "SiteGroupType": "Master",
+                        "RuleOrder": 100
+                    },
+                    {
+                        "SiteGroupNum": 6284002,
+                        "SiteGroupType": "Dealers",
+                        "RuleOrder": 50
+                    },
+                    {
+                        "SiteGroupNum": 6284026,
+                        "SiteGroupType": "Eq",
+                        "RuleOrder": 25
+                    }
+                ]
+            },
+            "signalCode": {
+                "eventContactId": "1406",
+                "zoneId": "6"
+            },
+            "disposition": "Cancelled"
+        }
+    ],
+    "baseStationSerialNumber": "",
+    "userId": 5388205,
+    "timezone": 1,
+    "locationOffset": -300,
+    "subscriptionEvents": [
+        {
+            "id": 22229970625,
+            "timestamp": "2024-05-23T22:33:54.000Z",
+            "type": "activityQuiet",
+            "contactId": {
+                "eventCode": 1172,
+                "zone": "2"
+            },
+            "info": "Live guard protection ended for this alarm",
+            "sensor": {
+                "type": 0,
+                "serial": "",
+                "name": ""
+            },
+            "message": {
+                "subject": "Agent Live View Access Ended",
+                "body": "Live guard protection ended for this alarm on 05/23/2024 at 5:33 PM"
+            },
+            "video": {
+                "startedBy": "",
+                "clips": []
+            }
+        },
+        {
+            "id": 22229970624,
+            "timestamp": "2024-05-23T22:33:48.000Z",
+            "type": "activity",
+            "contactId": {
+                "eventCode": 1407,
+                "zone": "0"
+            },
+            "info": "System Disarmed by Remote",
+            "sensor": {
+                "type": 0,
+                "serial": "",
+                "name": ""
+            },
+            "message": {
+                "subject": "SimpliSafe System Disarmed",
+                "body": "System Disarmed: Your SimpliSafe security system was disarmed by Remote at Home Test on 05/23/2024 at 5:33 PM"
+            },
+            "video": {
+                "startedBy": "",
+                "clips": [
+                    {
+                        "id": 304157234,
+                        "recordingType": "TEP",
+                        "durationInSeconds": 65,
+                        "prerollInSeconds": 5,
+                        "postrollInSeconds": 60,
+                        "aspectRatio": "16:9",
+                        "camera": {
+                            "id": "605922cf5e93c45e5637e90bb05ad6fa",
+                            "name": "office simp",
+                            "model": "SS003"
+                        }
+                    },
+                    {
+                        "id": 304157236,
+                        "recordingType": "KVS",
+                        "durationInSeconds": 62,
+                        "prerollInSeconds": 2,
+                        "postrollInSeconds": 60,
+                        "aspectRatio": "1:1",
+                        "camera": {
+                            "id": "e9e17723d154d123176e7a8df10ba2d6",
+                            "name": "Office 2",
+                            "model": "scout"
+                        }
+                    },
+                    {
+                        "id": 304157235,
+                        "recordingType": "KVS",
+                        "durationInSeconds": 62,
+                        "prerollInSeconds": 2,
+                        "postrollInSeconds": 60,
+                        "aspectRatio": "1:1",
+                        "camera": {
+                            "id": "71fa28ebde94551bdc5f901ff1136958",
+                            "name": "Office 1",
+                            "model": "scout"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 22229970623,
+            "timestamp": "2024-05-23T22:33:46.000Z",
+            "type": "alarmCancel",
+            "contactId": {
+                "eventCode": 1406,
+                "zone": "6"
+            },
+            "info": "Alarm Canceledby Online Command",
+            "sensor": {
+                "type": 0,
+                "serial": "",
+                "name": ""
+            },
+            "message": {
+                "subject": "SimpliSafe Alarm Canceled",
+                "body": "Alarm canceled: A recent alarm was canceled by Online Command at Home Test on 05/23/2024 at 5:33 PM"
+            },
+            "video": {
+                "startedBy": "",
+                "clips": []
+            }
+        },
+        {
+            "id": 22229970622,
+            "timestamp": "2024-05-23T22:33:33.000Z",
+            "type": "activityCam",
+            "contactId": {
+                "eventCode": 1171,
+                "zone": "0"
+            },
+            "info": "Agent Viewed Camera Live",
+            "sensor": {
+                "type": 21,
+                "serial": "f10ba2d6",
+                "name": ""
+            },
+            "message": {
+                "subject": "Agent Viewed Camera Live",
+                "body": "Agent Viewed Camera Live on 05/23/2024 at 5:33 PM"
+            },
+            "video": {
+                "startedBy": "e9e17723d154d123176e7a8df10ba2d6",
+                "clips": [
+                    {
+                        "id": 304157233,
+                        "recordingType": "KVS",
+                        "durationInSeconds": 24,
+                        "prerollInSeconds": 3,
+                        "postrollInSeconds": 20,
+                        "aspectRatio": "1:1",
+                        "camera": {
+                            "id": "e9e17723d154d123176e7a8df10ba2d6",
+                            "name": "Office 2",
+                            "model": "scout"
+                        },
+                        "links": {
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 22229970621,
+            "timestamp": "2024-05-23T22:33:23.000Z",
+            "type": "activityCam",
+            "contactId": {
+                "eventCode": 1171,
+                "zone": "0"
+            },
+            "info": "Agent Viewed Camera Live",
+            "sensor": {
+                "type": 21,
+                "serial": "f1136958",
+                "name": ""
+            },
+            "message": {
+                "subject": "Agent Viewed Camera Live",
+                "body": "Agent Viewed Camera Live on 05/23/2024 at 5:33 PM"
+            },
+            "video": {
+                "startedBy": "71fa28ebde94551bdc5f901ff1136958",
+                "clips": [
+                    {
+                        "id": 304157232,
+                        "recordingType": "KVS",
+                        "durationInSeconds": 10,
+                        "prerollInSeconds": 1,
+                        "postrollInSeconds": 8,
+                        "aspectRatio": "1:1",
+                        "camera": {
+                            "id": "71fa28ebde94551bdc5f901ff1136958",
+                            "name": "Office 1",
+                            "model": "scout"
+                        },
+                        "links": {
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 22229970620,
+            "timestamp": "2024-05-23T22:32:53.000Z",
+            "type": "activityCam",
+            "contactId": {
+                "eventCode": 1171,
+                "zone": "0"
+            },
+            "info": "Agent Viewed Camera Live",
+            "sensor": {
+                "type": 21,
+                "serial": "f1136958",
+                "name": ""
+            },
+            "message": {
+                "subject": "Agent Viewed Camera Live",
+                "body": "Agent Viewed Camera Live on 05/23/2024 at 5:32 PM"
+            },
+            "video": {
+                "startedBy": "71fa28ebde94551bdc5f901ff1136958",
+                "clips": [
+                    {
+                        "id": 304157231,
+                        "recordingType": "KVS",
+                        "durationInSeconds": 9,
+                        "prerollInSeconds": 1,
+                        "postrollInSeconds": 7,
+                        "aspectRatio": "1:1",
+                        "camera": {
+                            "id": "71fa28ebde94551bdc5f901ff1136958",
+                            "name": "Office 1",
+                            "model": "scout"
+                        },
+                        "links": {
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 22229970609,
+            "timestamp": "2024-05-23T22:32:19.000Z",
+            "type": "activityQuiet",
+            "contactId": {
+                "eventCode": 1172,
+                "zone": "0"
+            },
+            "info": "Video verification in progress.",
+            "sensor": {
+                "type": 0,
+                "serial": "",
+                "name": ""
+            },
+            "message": {
+                "subject": "Agent Reviewing Camera Footage",
+                "body": "Video verification in progress. on 05/23/2024 at 5:32 PM"
+            },
+            "video": {
+                "startedBy": "",
+                "clips": []
+            }
+        },
+        {
+            "id": 22229970608,
+            "timestamp": "2024-05-23T22:32:06.000Z",
+            "type": "alarm",
+            "contactId": {
+                "eventCode": 1134,
+                "zone": "0"
+            },
+            "info": "Alarm: Entry Sensor Front Door",
+            "sensor": {
+                "type": 5,
+                "serial": "021b447f",
+                "name": "Front Door"
+            },
+            "message": {
+                "subject": "Alarm Alert! Your SimpliSafe Security System was triggered",
+                "body": "Alarm alert: Entry Sensor Front Door triggered at Home Test on 05/23/2024 at 5:32 PM"
+            },
+            "video": {
+                "startedBy": "",
+                "clips": [
+                    {
+                        "id": 304157219,
+                        "recordingType": "TEP",
+                        "durationInSeconds": 185,
+                        "prerollInSeconds": 5,
+                        "postrollInSeconds": 180,
+                        "aspectRatio": "16:9",
+                        "camera": {
+                            "id": "605922cf5e93c45e5637e90bb05ad6fa",
+                            "name": "office simp",
+                            "model": "SS003"
+                        },
+                        "links": {
+                        }
+                    },
+                    {
+                        "id": 304157221,
+                        "recordingType": "KVS",
+                        "durationInSeconds": 182,
+                        "prerollInSeconds": 2,
+                        "postrollInSeconds": 180,
+                        "aspectRatio": "1:1",
+                        "camera": {
+                            "id": "71fa28ebde94551bdc5f901ff1136958",
+                            "name": "Office 1",
+                            "model": "scout"
+                        },
+                        "links": {
+                        }
+                    },
+                    {
+                        "id": 304157220,
+                        "recordingType": "KVS",
+                        "durationInSeconds": 182,
+                        "prerollInSeconds": 2,
+                        "postrollInSeconds": 180,
+                        "aspectRatio": "1:1",
+                        "camera": {
+                            "id": "e9e17723d154d123176e7a8df10ba2d6",
+                            "name": "Office 2",
+                            "model": "scout"
+                        },
+                        "links": {
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 22229970607,
+            "timestamp": "2024-05-23T22:32:03.000Z",
+            "type": "activity",
+            "contactId": {
+                "eventCode": 3441,
+                "zone": "3"
+            },
+            "info": "System Armed (Home) by Remote Management",
+            "sensor": {
+                "type": 0,
+                "serial": "",
+                "name": ""
+            },
+            "message": {
+                "subject": "SimpliSafe System Armed (home mode)",
+                "body": "System Armed (home mode): Your SimpliSafe System was armed (home) at Home Test on 05/23/2024 at 5:32 PM"
+            },
+            "video": {
+                "startedBy": "",
+                "clips": []
+            }
+        }
+    ]
+}
